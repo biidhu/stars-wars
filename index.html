@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars API App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-5">Star Wars Characters</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <button id="peopleBtn" class="btn btn-primary w-100 mb-3">Fetch People</button>
+                <button id="planetsBtn" class="btn btn-primary w-100 mb-3">Fetch Planets</button>
+                <button id="filmsBtn" class="btn btn-primary w-100 mb-3">Fetch Films</button>
+            </div>
+        </div>
+        <div class="row justify-content-center" id="dataContainer">
+            <!-- Data will be dynamically added here -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
